@@ -1,0 +1,33 @@
+#calculadora{color: blue;
+	font-family: cursive;}
+
+.imagenes{
+	width:100px;  
+	height:150px;
+margin-left: 100px;
+margin-top: 50px;}
+
+.segundo{width:100px;
+height: 100px;
+margin-left: 250px;
+margin-top: -150px;}
+
+.tercero{width:100px;
+height: 100px;
+margin-left: 400px;
+margin-top: -100px;}
+
+
+.sumaResta{margin-left: 100px;
+margin-top: 600px;}
+
+#resultado{
+width: 200px ;
+height: 50px ;
+margin-left: 800px;
+}
+
+#bonus{
+	margin-left: 1000px;
+	margin-top: -900px;
+}

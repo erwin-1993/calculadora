@@ -1,0 +1,47 @@
+<html>
+<head>
+	<title> CALCULADORA </title>
+	
+	<script type="text/javascript" src="calculadora.js"></script>
+		
+		<link rel="stylesheet" type="text/css" href="calculadora.css"></link>
+</head>
+<body >
+
+	<h2 align="center" id="calculadora" > CALCULADORA </h2>
+
+		
+		<div class="imagenes">	
+									<img id="img1" src="./numeros/1.jpg" onclick="enviarNumero('1')" >
+									<img id="img4" src="./numeros/4.jpg" onclick="enviarNumero('4')">
+									<img id="img7" src="./numeros/7.jpg" onclick="enviarNumeroo('7')">
+		</div>
+			
+		<div class="segundo" >
+			
+									<img id="img2" src="./numeros/2.jpg" onclick="enviarNumeroo('2')">
+									<img id="img5" src="./numeros/5.jpg" onclick="enviarNumero('5')">
+									<img id="img8" src="./numeros/8.jpg" onclick="enviarNumero('8')">
+
+		</div>
+		<div class="tercero" >
+			
+									<img id="img3" src="./numeros/3.jpg" onclick="enviarNumero('3')">
+									<img id="img6" src="./numeros/6.jpg" onclick="enviarNumero('6')">
+									<img id="img9" src="./numeros/9.jpg" onclick="enviarNumero('9')">
+
+		</div>
+
+
+	<div class="sumaResta" >
+			<img id="suma" 				src="./numeros/suma.png" 					onclick="enviarSigno('+')">
+			<img id="resta" 			src="./numeros/resta.png" 					onclick="enviarSigno('-')">
+			<img id="multiplicacion" 	src="./numeros/multiplicacion.png" 		onclick="enviarSigno('*')">
+			<img id="division" 			src="./numeros/divicion.png"				 onclick="enviarSigno('/')">
+	</div>
+		
+<input type="button" id="resultado" value="RESULTADO" 	onclick="solucion()">
+<input type="button" id="resultado" value="C" 			onclick="restore()">
+ <td style="position: absolute;"><div id="bonus"></div></td>
+</body>
+</html>
